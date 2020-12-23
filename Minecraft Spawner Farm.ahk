@@ -19,13 +19,13 @@ Loop{
 		self_count += 1                 
 		if (self_count = 300){          ;-------------------------COUNTER REACHES 300             
 			self_count := 0 
-			Send,{1}                      ; FOOD IN FIRST HOTBAR (preferable a stack steak if your going to afk while sleeping xD)
+			Send,{1}                      ;---SWITCHES TO FOOD IN FIRST HOTBAR (preferable a stack steak if your going to afk while sleeping xD)
 			Sleep,100
 			Click,Down, Right
-			Sleep, 3000
+			Sleep, 3000		      ;---EATS FOOD
 			Click,Up, Right
 			Sleep,100
-			Send,{2}                      ; WEAPON IN SECOND
+			Send,{2}                      ;---WEAPON IN SECOND
 		}
 	}
 	else
