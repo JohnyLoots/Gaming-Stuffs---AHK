@@ -25,7 +25,7 @@ Loop{
 			Sleep, 3000		      ;---EATS FOOD
 			Click,Up, Right
 			Sleep,100
-			Send,{2}                      ;---WEAPON IN SECOND
+			Send,{2}                      ;---SWITCHES BACK TO WEAPON IN 2ND HOTBAR
 		}
 	}
 	else
