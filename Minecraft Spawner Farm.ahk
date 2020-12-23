@@ -14,8 +14,8 @@ global self_count := 0
 Loop{	
 	if (toggleclicker = 1)
 	{
-		Click,{LClick}                  ;--------ATTACKS UNTIL COUNTER REACHES 300   THEN SWITCHES TO FIRST HOTBAR AND USES IT. (USED FOR EATING FOOD WHILE FARMING SO CHAR DOESNT STARVE)  
-		Sleep,1000
+		Click,{LClick}                  ;--------ATTACKS UNTIL COUNTER REACHES 300   THEN SWITCHES TO FIRST HOTBAR AND USES IT.						  
+		Sleep,1000			;---------		(USED FOR EATING FOOD WHILE FARMING SO CHAR DOESNT STARVE)
 		self_count += 1                 
 		if (self_count = 300){          ;-------------------------COUNTER REACHES 300             
 			self_count := 0 
